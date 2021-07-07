@@ -1,0 +1,141 @@
+* {
+    /* border: solid 1px black; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@500&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.navBar {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+}
+
+nav a {
+    width: auto;
+    text-decoration: none;
+    word-wrap: break-word;
+    color: white;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1% 1vw;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    margin: 1%;
+}
+
+.headerImg {
+    margin-right: 5%;
+}
+
+.headerImg img {
+    height: 200px;
+    width: 200px;
+    border-radius: 360px;
+}
+
+.about {
+    text-align: center;
+    justify-self: space-between;
+    font-size: 3rem;
+}
+
+.comeExplore {
+    font-size: 2rem;
+}
+
+.moreInfo {
+    font-size: 1.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.contentInfo {
+    background: #D9B8A2;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90vw;
+    padding: 1vw;
+}
+
+.content img {
+    display: flex;
+    height: 20vh;
+    width: 20vw;
+    margin: 2vh auto;
+    align-content: center;
+}
+
+.fireWarning p, .reservations p {
+    font-size: 1rem;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #D9B8A2;
+}
+
+footer img {
+    width: 100%;
+    height: 25vh;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+footer nav {
+    height: 2vh;
+    text-align: center;
+    padding: 1%;
+}
+
+footer nav a {
+    text-decoration: none;
+    width: 50px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+footer nav a:hover {
+    color: #D9B8A2;
+}
+
+.planVisit {
+    background-color: #F67353;
+}
+
+.learnAbout {
+    background-color: #70D2E9;
+}
+
+.getInvolved {
+    background-color: #F9CD6D;
+}
+
