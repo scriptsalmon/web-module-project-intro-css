@@ -1,0 +1,146 @@
+* {
+    /* border: solid 1px black; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.navBar {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+}
+
+nav a {
+    width: auto;
+    text-decoration: none;
+    word-wrap: break-word;
+    color: white;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1% 1vw;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    margin: 1%;
+}
+
+.headerImg {
+    margin-right: 5%;
+}
+
+.headerImg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 999px;
+}
+
+.about {
+    text-align: center;
+    justify-self: space-between;
+    font-size: 4rem;
+}
+
+.about h1 {
+    font-family: 'Chelsea Market';
+}
+
+.comeExplore {
+    display: inline-block;
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+
+.moreInfo {
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.contentInfo {
+    background: #DDB9A3;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 90vw;
+    padding: 1vw;
+}
+
+.content img {
+    display: flex;
+    height: 22vh;
+    width: 22vw;
+    margin: 2vh auto;
+    align-content: center;
+}
+
+.fireWarning p, .reservations p {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #F9E7DC;
+}
+
+footer img {
+    width: 100%;
+    height: 25vh;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+footer nav {
+    height: 2vh;
+    text-align: center;
+    padding-top: 4%;
+}
+
+footer nav a {
+    text-decoration: none;
+    width: 50px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.planVisit {
+    background-color: #FF764E;
+}
+
+.learnAbout {
+    background-color: #5ED3EB;
+}
+
+.getInvolved {
+    background-color: #FFCD69;
+}
+
